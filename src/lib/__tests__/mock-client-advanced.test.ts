@@ -512,7 +512,7 @@ describe("Mock Client - Advanced Query Patterns", () => {
 
     it("should handle admin login -> check role flow", async () => {
       await client.auth.signInWithPassword({
-        email: "admin@elhouda.fr",
+        email: "admin@djanaiz.fr",
         password: "admin123",
       });
 
@@ -533,7 +533,7 @@ describe("Mock Client - Advanced Query Patterns", () => {
 
     it("should handle password change", async () => {
       await client.auth.signInWithPassword({
-        email: "admin@elhouda.fr",
+        email: "admin@djanaiz.fr",
         password: "admin123",
       });
 
@@ -543,7 +543,7 @@ describe("Mock Client - Advanced Query Patterns", () => {
       await client.auth.signOut();
 
       const { data: newLogin } = (await client.auth.signInWithPassword({
-        email: "admin@elhouda.fr",
+        email: "admin@djanaiz.fr",
         password: "newpass456",
       })) as any;
       expect(newLogin.user).toBeDefined();

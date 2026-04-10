@@ -55,7 +55,7 @@ export default function MemberLayout({
             <div className="w-8 h-8 bg-sidebar-primary rounded-lg flex items-center justify-center">
               <span className="text-sm">🕌</span>
             </div>
-            <span className="font-bold text-sm">El Houda - Janaza</span>
+            <span className="font-bold text-sm">Djanaiz</span>
           </div>
 
           <div className="flex items-center gap-2">

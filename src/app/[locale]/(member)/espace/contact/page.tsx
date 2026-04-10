@@ -87,7 +87,7 @@ export default function ContactPage() {
             <CardDescription>
               {locale === "ar"
                 ? "أرسل رسالة إلى إدارة مسجد الهدى"
-                : "Envoyez un message à l'administration de la Mosquée El Houda"}
+                : "Envoyez un message à l'administration"}
             </CardDescription>
           </CardHeader>
           <CardContent>

@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "El Houda - Janaza",
+  title: "Djanaiz",
   description: "Gestion de la caisse Janaza - Mosquée El Houda",
 };
 

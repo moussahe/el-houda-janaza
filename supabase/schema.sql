@@ -1,6 +1,6 @@
 -- ============================================
--- El Houda Janaza - Database Schema
--- Mosquée El Houda - Villefranche
+-- Djanaiz - Database Schema
+-- Plateforme de gestion caisse Janaza
 -- ============================================
 
 -- Enable UUID extension

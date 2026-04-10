@@ -15,7 +15,7 @@ import type {
 
 export const demoAuthUsers: { id: string; email: string; password: string }[] =
   [
-    { id: "auth-admin-001", email: "admin@elhouda.fr", password: "admin123" },
+    { id: "auth-admin-001", email: "admin@djanaiz.fr", password: "admin123" },
     {
       id: "auth-member-001",
       email: "ahmed.benali@email.com",
@@ -35,7 +35,7 @@ export const demoMembers: Member[] = [
     first_name: "Ahmed",
     last_name: "Benali",
     phone: "06 12 34 56 78",
-    email: "admin@elhouda.fr",
+    email: "admin@djanaiz.fr",
     address: "12 rue de la Mosquée",
     city: "Villefranche-sur-Saône",
     date_of_birth: "1975-03-15",
@@ -1110,7 +1110,7 @@ export const demoAppSettings: {
   },
   {
     key: "mosque_name",
-    value: "Mosquée El Houda",
+    value: "Mosquée El Houda (Djanaiz)",
     updated_at: "2024-01-01T00:00:00.000Z",
   },
   {
@@ -1125,7 +1125,7 @@ export const demoAppSettings: {
   },
   {
     key: "mosque_email",
-    value: "contact@mosquee-elhouda.fr",
+    value: "contact@djanaiz.fr",
     updated_at: "2024-01-01T00:00:00.000Z",
   },
 ];

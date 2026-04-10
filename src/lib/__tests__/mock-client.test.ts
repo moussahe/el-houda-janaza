@@ -13,13 +13,13 @@ describe("Mock Supabase Client", () => {
   describe("Auth", () => {
     it("should sign in with valid admin credentials", async () => {
       const { data, error } = (await client.auth.signInWithPassword({
-        email: "admin@elhouda.fr",
+        email: "admin@djanaiz.fr",
         password: "admin123",
       })) as any;
 
       expect(error).toBeNull();
       expect(data.user).toBeDefined();
-      expect(data.user.email).toBe("admin@elhouda.fr");
+      expect(data.user.email).toBe("admin@djanaiz.fr");
     });
 
     it("should sign in with valid member credentials", async () => {
@@ -45,13 +45,13 @@ describe("Mock Supabase Client", () => {
 
     it("should return user after sign in", async () => {
       await client.auth.signInWithPassword({
-        email: "admin@elhouda.fr",
+        email: "admin@djanaiz.fr",
         password: "admin123",
       });
 
       const { data } = (await client.auth.getUser()) as any;
       expect(data.user).toBeDefined();
-      expect(data.user.email).toBe("admin@elhouda.fr");
+      expect(data.user.email).toBe("admin@djanaiz.fr");
     });
 
     it("should return null user when not signed in", async () => {
@@ -62,7 +62,7 @@ describe("Mock Supabase Client", () => {
 
     it("should sign out", async () => {
       await client.auth.signInWithPassword({
-        email: "admin@elhouda.fr",
+        email: "admin@djanaiz.fr",
         password: "admin123",
       });
       await client.auth.signOut();

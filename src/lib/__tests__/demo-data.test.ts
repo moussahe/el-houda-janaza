@@ -5,7 +5,7 @@ describe("Demo Data", () => {
   describe("Auth users", () => {
     it("should have admin and member accounts", () => {
       expect(demoAuthUsers).toHaveLength(2);
-      const admin = demoAuthUsers.find((u) => u.email === "admin@elhouda.fr");
+      const admin = demoAuthUsers.find((u) => u.email === "admin@djanaiz.fr");
       const member = demoAuthUsers.find(
         (u) => u.email === "ahmed.benali@email.com",
       );
@@ -279,7 +279,7 @@ describe("Demo Data", () => {
     it("should have mosque name setting", () => {
       const name = settings.find((s: any) => s.key === "mosque_name");
       expect(name).toBeDefined();
-      expect(name.value).toContain("El Houda");
+      expect(name.value).toContain("Djanaiz");
     });
 
     it("should have cities list", () => {

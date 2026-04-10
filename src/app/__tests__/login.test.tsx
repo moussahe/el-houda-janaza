@@ -96,7 +96,7 @@ describe("LoginPage", () => {
     const user = userEvent.setup();
     render(<LoginPage />);
 
-    await user.type(screen.getByLabelText("auth.email"), "admin@elhouda.fr");
+    await user.type(screen.getByLabelText("auth.email"), "admin@djanaiz.fr");
     await user.type(screen.getByLabelText("auth.password"), "admin123");
     await user.click(screen.getByRole("button", { name: "common.login" }));
 
@@ -138,7 +138,7 @@ describe("LoginPage", () => {
     const user = userEvent.setup();
     render(<LoginPage />);
 
-    await user.type(screen.getByLabelText("auth.email"), "admin@elhouda.fr");
+    await user.type(screen.getByLabelText("auth.email"), "admin@djanaiz.fr");
     await user.type(screen.getByLabelText("auth.password"), "admin123");
 
     const button = screen.getByRole("button", { name: "common.login" });

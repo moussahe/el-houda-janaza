@@ -64,8 +64,8 @@ export function AdminSidebar() {
             <span className="text-lg">🕌</span>
           </div>
           <div className="min-w-0">
-            <h2 className="font-bold text-sm truncate">El Houda</h2>
-            <p className="text-xs text-sidebar-foreground/60">Janaza</p>
+            <h2 className="font-bold text-sm truncate">Djanaiz</h2>
+            <p className="text-xs text-sidebar-foreground/60">Gestion Janaza</p>
           </div>
         </div>
       </div>
