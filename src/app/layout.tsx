@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Djanaiz",
-  description: "Gestion de la caisse Janaza - Mosquée El Houda",
+  description: "Djanaiz - Gestion de caisse Janaza",
 };
 
 export default function RootLayout({
